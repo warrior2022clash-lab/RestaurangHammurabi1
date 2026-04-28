@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Hammurabi</title>
+  <meta name="description" content="Restaurant Hammurabi in Stockholm serves generous grilled lamb, chicken skewers, kebab plates, salad bar, coffee and small plates.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Restaurant Hammurabi home">
+      <span class="brand-mark">H</span>
+      <span>
+        <strong>Restaurant Hammurabi</strong>
+        <small data-i18n="brandTag">Grill, lamb & generous plates</small>
+      </span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#menu" data-i18n="navMenu">Menu</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#accessibility" data-i18n="navAccess">Accessibility</a>
+      <a href="#booking" data-i18n="navBooking">Book</a>
+    </nav>
+
+    <div class="language-switch" aria-label="Language selector">
+      <button class="lang-btn active" type="button" data-lang="en">EN</button>
+      <button class="lang-btn" type="button" data-lang="sv">SV</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">Stockholm grill restaurant</p>
+        <h1 data-i18n="heroTitle">Big-hearted Middle Eastern plates, grilled fresh and served generously.</h1>
+        <p class="hero-text" data-i18n="heroText">Come for juicy lamb, shish kebab, chicken skewers, salad bar, coffee and warm service in a casual setting.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#booking" data-i18n="heroBook">Book for a group</a>
+          <a class="btn secondary" href="#menu" data-i18n="heroMenu">See the menu</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/sharing-platter.png" alt="Large sharing grill platter with lamb, chicken, kebab, grilled vegetables and sauces">
+      </div>
+    </section>
+
+    <section class="section intro-band" aria-label="Restaurant highlights">
+      <div class="stat">
+        <strong data-i18n="statOne">Huge portions</strong>
+        <span data-i18n="statOneText">Sharing platters, grill mix and filling plates.</span>
+      </div>
+      <div class="stat">
+        <strong data-i18n="statTwo">Fresh salad bar</strong>
+        <span data-i18n="statTwoText">Crisp vegetables, pickles, olives and sauces.</span>
+      </div>
+      <div class="stat">
+        <strong data-i18n="statThree">Casual & friendly</strong>
+        <span data-i18n="statThreeText">Welcoming for lunch, dinner and groups.</span>
+      </div>
+    </section>
+
+    <section class="section split" id="about">
+      <div>
+        <p class="eyebrow" data-i18n="aboutEyebrow">About Hammurabi</p>
+        <h2 data-i18n="aboutTitle">A relaxed Stockholm spot for grilled lamb, kebab and family-style meals.</h2>
+        <p data-i18n="aboutText">Restaurant Hammurabi is made for people who love bold flavors and generous plates. Guests praise the flavorful lamb, quick service, great value and friendly staff.</p>
+        <div class="quote-grid">
+          <blockquote data-i18n="quoteOne">“One of the most satisfying meals I’ve ever had in Stockholm.”</blockquote>
+          <blockquote data-i18n="quoteTwo">“Great value for money. Huge portions.”</blockquote>
+        </div>
+      </div>
+      <figure class="image-card tall">
+        <img src="assets/lamb-platter-owner.png" alt="A large lamb platter served at Restaurant Hammurabi">
+      </figure>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="menuEyebrow">Menu favorites</p>
+        <h2 data-i18n="menuTitle">Grill plates, lamb dishes and fresh sides.</h2>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-item">
+          <span>01</span>
+          <h3 data-i18n="dishOne">Shish kebab</h3>
+          <p data-i18n="dishOneText">Chargrilled kebab served with rice, salad, bread and sauces.</p>
+          <strong>160 kr</strong>
+        </article>
+        <article class="menu-item">
+          <span>02</span>
+          <h3 data-i18n="dishTwo">Chicken skewers</h3>
+          <p data-i18n="dishTwoText">Juicy marinated chicken with grilled vegetables and fresh sides.</p>
+          <strong>160 kr</strong>
+        </article>
+        <article class="menu-item">
+          <span>03</span>
+          <h3 data-i18n="dishThree">Lamb skewers</h3>
+          <p data-i18n="dishThreeText">Tender lamb pieces grilled over high heat for deep flavor.</p>
+          <strong>180 kr</strong>
+        </article>
+        <article class="menu-item">
+          <span>04</span>
+          <h3 data-i18n="dishFour">Shish kebab & chicken</h3>
+          <p data-i18n="dishFourText">A generous mixed plate with both kebab and chicken skewers.</p>
+          <strong>160 kr</strong>
+        </article>
+        <article class="menu-item">
+          <span>05</span>
+          <h3 data-i18n="dishFive">Lamb & chicken skewers</h3>
+          <p data-i18n="dishFiveText">Two grill favorites on one filling plate.</p>
+          <strong>180 kr</strong>
+        </article>
+        <article class="menu-item">
+          <span>06</span>
+          <h3 data-i18n="dishSix">Shish kebab & lamb</h3>
+          <p data-i18n="dishSixText">Kebab and lamb skewers served with classic Hammurabi sides.</p>
+          <strong>180 kr</strong>
+        </article>
+        <article class="menu-item highlight">
+          <span>07</span>
+          <h3 data-i18n="dishSeven">Grill mix</h3>
+          <p data-i18n="dishSevenText">A full plate for a serious appetite: lamb, chicken, kebab, rice and salad.</p>
+          <strong>220 kr</strong>
+        </article>
+        <article class="menu-item">
+          <span>08</span>
+          <h3 data-i18n="dishEight">Lamb Quzi</h3>
+          <p data-i18n="dishEightText">Slow-cooked lamb with rice, soup and bright salad flavors.</p>
+          <strong>180 kr</strong>
+        </article>
+      </div>
+
+      <figure class="wide-menu">
+        <img src="assets/menu-board.png" alt="Restaurant Hammurabi menu board with grill plates and prices">
+      </figure>
+    </section>
+
+    <section class="section gallery">
+      <figure class="image-card">
+        <img src="assets/salad-bar.png" alt="Salad bar with vegetables, pickles, olives, corn and sauces">
+      </figure>
+      <div>
+        <p class="eyebrow" data-i18n="offerEyebrow">Service options</p>
+        <h2 data-i18n="offerTitle">Eat here, take away, or bring the whole group.</h2>
+        <div class="pill-list">
+          <span data-i18n="pillOutdoor">Outdoor seating</span>
+          <span data-i18n="pillTakeaway">Takeaway</span>
+          <span data-i18n="pillDine">Dine-in</span>
+          <span data-i18n="pillLunch">Lunch</span>
+          <span data-i18n="pillDinner">Dinner</span>
+          <span data-i18n="pillDessert">Dessert</span>
+          <span data-i18n="pillCoffee">Coffee</span>
+          <span data-i18n="pillSmall">Small plates</span>
+          <span data-i18n="pillKids">Good for kids</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section access-section" id="accessibility">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="accessEyebrow">Accessibility & amenities</p>
+        <h2 data-i18n="accessTitle">Comfortable for lunch, dinner, solo dining and groups.</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature">
+          <h3 data-i18n="accessOne">Wheelchair-accessible entrance</h3>
+          <p data-i18n="accessOneText">The restaurant lists a wheelchair-accessible entrance for easier arrival.</p>
+        </div>
+        <div class="feature">
+          <h3 data-i18n="accessTwo">Wheelchair-accessible seating</h3>
+          <p data-i18n="accessTwoText">Accessible seating is available for guests dining in.</p>
+        </div>
+        <div class="feature">
+          <h3 data-i18n="accessThree">Amenities</h3>
+          <p data-i18n="accessThreeText">Toilet, table service and a casual atmosphere.</p>
+        </div>
+        <div class="feature">
+          <h3 data-i18n="accessFour">Payments & parking</h3>
+          <p data-i18n="accessFourText">Credit cards, debit cards, NFC mobile payments, paid lot and street parking.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking-section" id="booking">
+      <div class="booking-copy">
+        <p class="eyebrow" data-i18n="bookingEyebrow">Planning a bigger meal?</p>
+        <h2 data-i18n="bookingTitle">Book a table for groups and sharing platters.</h2>
+        <p data-i18n="bookingText">Send a request for your party size, date and time. The restaurant can prepare generous plates for families, friends and group dinners.</p>
+      </div>
+
+      <form class="booking-form" id="bookingForm">
+        <label>
+          <span data-i18n="labelName">Name</span>
+          <input name="name" type="text" autocomplete="name" required>
+        </label>
+        <label>
+          <span data-i18n="labelPhone">Phone or email</span>
+          <input name="contact" type="text" autocomplete="email" required>
+        </label>
+        <label>
+          <span data-i18n="labelGuests">Number of guests</span>
+          <input name="guests" type="number" min="6" value="6" required>
+        </label>
+        <label>
+          <span data-i18n="labelDate">Date and time</span>
+          <input name="date" type="datetime-local" required>
+        </label>
+        <label class="full">
+          <span data-i18n="labelMessage">Message</span>
+          <textarea name="message" rows="4" data-i18n-placeholder="messagePlaceholder" placeholder="Tell us about platters, accessibility needs or children in the group."></textarea>
+        </label>
+        <button class="btn primary full" type="submit" data-i18n="bookingButton">Send booking request</button>
+        <p class="form-note" data-i18n="bookingNote">This opens your email app. Replace the email address in script.js with the restaurant’s real booking email.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Restaurant Hammurabi</strong>
+      <p data-i18n="footerText">Casual Stockholm dining with lamb, kebab, chicken, salad bar and generous sharing plates.</p>
+    </div>
+    <a href="#top" data-i18n="backTop">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
